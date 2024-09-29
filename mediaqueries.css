@@ -1,1 +1,13 @@
+/*this code means that when the screen is lesser than
+1200px, the desktop navigation won't be displayed
 
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    /*instead the hamburger navigation would be 
+    displayed
+    #hamburger-nav {
+        display: flex;
+}
+}*/

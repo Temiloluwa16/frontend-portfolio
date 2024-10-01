@@ -19,7 +19,7 @@ p {
 
 /* Transition */
 a, .button {
-    transition: all 399ms ease;
+    transition: all 300ms ease;
 }
 nav, .navigation-links {
     display: flex;
@@ -124,6 +124,20 @@ hamburger section, so you just click on the x*/
     transform: none;
 }
 
+.profile-pic {
+    height: 100%;
+    width: 100%;
+    border-radius: 25%; /* Makes the image circular */
+    object-fit: cover;
+}
+
+.picture-container {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+; 
+  }
 
 
 

@@ -124,9 +124,11 @@ hamburger section, so you just click on the x*/
     transform: none;
 }
 
+
+/*PROFILE */
 .profile-pic {
     height: 100%;
-    width: 100%;
+    /*width: 100%;*/
     border-radius: 25%; /* Makes the image circular */
     object-fit: cover;
 }
@@ -138,13 +140,104 @@ hamburger section, so you just click on the x*/
     margin: auto 0;
 ; 
   }
+ /*Section*/
+
+ section {
+    padding-top: 4vh;
+    height: 96vh;
+   margin: 0 10rem;
+   box-sizing: border-box;
+   min-height: fit-content;    
+ }
+
+ .section-container, #profile {
+    display: flex;
+ }
+
+#profile {
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section-text {
+    align-self: center;
+    text-align: center;
+}
+
+.section-text p {
+    font-weight: 600;
+}
+
+.paragraph-one {
+    text-align: center;
+}
 
 
+.paragraph-two {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
 
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
 
+#socials-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    
+    
+    /* ICONS */
 
+    .icon {
+        cursor: pointer;
+        height: 2rem;
+    }
+}
+/*BUTTONS*/
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
 
+.button {
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
 
+.button-color-2, .button-color-1 {
+   border: rgb(53, 53, 53) 0.1rem solid;
+}
+.button-color-2, .button-color-1 {
+    cursor: pointer;
+}
+.button-color-2:hover, 
+.button-color-1:hover {
+    cursor: pointer;
+}
+.button-color-2:hover, .button-color-1 {
+    background: rgb(53, 53, 53);
+    color: white;
+}
+.button-color-1:hover {
+    background: rgb(0, 0, 0);
+}
+.button-color-2 {
+    background: none;
+}
+
+.button-color-2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
 
   /*this code means that when the screen is lesser than
 1200px, the desktop navigation won't be displayed*/
